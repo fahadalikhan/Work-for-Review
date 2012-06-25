@@ -1,0 +1,9 @@
+Create db ec2
+Import dump
+To update data "bundle exec todo get_instances"
+// this will fetch all instances and update the records as necessary
+To get reports "bundle exec todo get_cost_report (billing_owner_name)"
+// this will display all the instance_id with their total cost in $ and the billing owner
+To update utilisation data "bundle exec todo get_utilisation_report"
+// this will update the utilisation data , but is currently not working , theres seems to be some problem with the gem i am using , will need to debug this
+
